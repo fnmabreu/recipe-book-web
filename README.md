@@ -1,4 +1,8 @@
-# RecipeBookWeb
+# Angular - The Complete Guide (2022 Edition)
+
+Course: https://www.udemy.com/course/the-complete-guide-to-angular-2/
+
+---------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
