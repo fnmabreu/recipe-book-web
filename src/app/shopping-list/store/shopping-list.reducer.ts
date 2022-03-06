@@ -41,7 +41,7 @@ export function shoppingListReducer(
         ...state,
         ingredients: updatedIngredients,
         editIngredientIndex: -1,
-        editIngredient: null
+        editIngredient: null,
       };
     case ShoppingListActions.DELETE_INGREDIENT:
       return {
@@ -50,7 +50,7 @@ export function shoppingListReducer(
           return igIndex !== state.editIngredientIndex;
         }),
         editIngredientIndex: -1,
-        editIngredient: null
+        editIngredient: null,
       };
     case ShoppingListActions.START_EDIT:
       return {
